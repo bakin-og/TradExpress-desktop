@@ -1,0 +1,620 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.div1{
+  background-color: blueviolet;
+  height: 111vh;
+}
+.mg{
+  margin-left: 20px;
+}
+.nav1{
+  background-color: blueviolet;
+  
+}
+.navlogin{
+  background-color: gold;
+  border-radius: 40px;
+  margin-right: 10px;
+}
+.navstarted{
+  background-color: white;
+  border-radius: 40px;
+}
+.circle1{
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 1;
+    top: 4rem;
+    left: 10%;
+    box-shadow: 0px 2px 3px #26093A;
+    border: 50px solid #7c20BE;
+    opacity: 0.35;
+    filter: blur(0px);
+    margin-left: 320px;
+    display: inline-block;
+}
+.circle2{
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    box-shadow: 0px 2px 3px #26093A;
+    border: 50px solid #7c20BE;
+    opacity: 0.35;
+    filter: blur(0px);
+    left: 60%;
+    top: 40%;
+    display: inline-block;
+    position: absolute;
+    overflow: hidden;
+}
+.div1 h1{
+padding: 100px 0 20px 0;
+color: white;
+}
+
+.p1{
+  color: white;
+} 
+.btn1{ 
+  width: 327px;
+  border-radius: 5px;
+  margin: 20px 0;
+  padding: 10px;
+}
+.men{
+  display: flex;
+  list-style-type: none;
+  margin-top: 10px;
+}
+.allinfo{
+  display: flex;
+  list-style-type: none;
+  margin-top: 287px;
+  position: relative;
+  right: 13px;
+  bottom: 2px;
+  padding: 2px;
+}
+.coins{
+  border: 0.5px solid #707070;
+  width: 100%;
+  background: #F7F7FA 0% 0% no-repeat padding-box;
+  background-color: white;
+  position: relative;
+  bottom: 14px;
+  left: 12px;
+  padding: 15px 0px;
+}
+.ojus{
+    opacity: 1;
+  margin-top: 80px;
+}
+.h4a{
+  text-align: center;
+  font-weight: bold;
+}
+.conts{
+  margin-top: 70px;
+  text-align: center;
+  
+}
+.ease{
+   box-shadow: 0 0 20px 0 grey;
+}
+.financial{
+  box-shadow: 0 0 20px 0 grey;
+}
+.investment{
+  box-shadow: 0 0 20px 0 grey;
+}
+.learn{
+  display: flex;
+  margin: auto;
+  width: 250px;
+  margin-top: 50px;
+  padding: 10px;
+  justify-content: center;
+  border-radius: 5px;
+}
+ /* .buynsell{
+  margin-top: 100px;
+  background: #f2f2f2 0% 0% no-repeat padding-box;
+  opacity: 1;
+}  */
+ 
+.buynsell>h4{
+  text-align: center;
+  font-weight: bold;
+  padding-top: 30px;
+}
+.create{
+  margin-top: 90px;
+}
+.one{
+  width: 30px;
+  height: 30px;
+  background: #7c20bf 0% 0% no-repeat padding-box;
+  border-radius: 4px;
+  opacity: 1;
+  color: white;
+  text-align: center;
+  box-shadow: 3px 3px 0px 0px gray;
+  position: relative;
+  top: 120px;
+}
+.steps{
+  margin-top: 50px;
+}
+.create{
+  padding-left: 60px;
+  padding-bottom: 30px;  
+}
+.two{
+  width: 30px;
+  height: 30px;
+  background: #7c20bf 0% 0% no-repeat padding-box;
+  border-radius: 4px;
+  opacity: 1;
+  color: white;
+  text-align: center;
+  box-shadow: 3px 3px 0px 0px gray;
+    position: relative;
+  top: 150px;
+  left: 120px;
+}
+.deposit{
+  padding-left: 180px;
+  padding-top: 115px;
+}
+.three{
+  width: 30px;
+  height: 30px;
+  background: #7c20bf 0% 0% no-repeat padding-box;
+  border-radius: 4px;
+  opacity: 1;
+  color: white;
+  text-align: center;
+  box-shadow: 3px 3px 0px 0px gray;
+  position: relative;
+  top: 100px;
+}
+.Buy{
+  padding-top: 64px;
+  padding-left: 65px;
+}
+.ready{
+  text-align: center;
+  padding-left: 50px;
+}
+.redybtn{
+  width: 310px;
+  border-radius: 4px;
+  background-color: #7c20bf;
+  color: white;
+  padding: 5px;
+
+}
+.redymga{
+  background-color: gray;
+  border-radius: 5px;
+}
+.redymgb{
+  background-color: gray;
+  border-radius: 5px;
+}
+.review{
+  margin-top: 100px;
+  background: #f2f2f2 0% 0% no-repeat padding-box;
+}
+.cust{
+  text-align: center;
+  font-weight: bold;
+  padding-bottom: 60px;
+}
+.reva{
+  width: 350px;
+}
+.r1{
+  position: relative;
+  bottom: 180px;
+  left: 20px;
+}
+.k1{
+  text-align: center;
+  position: relative;
+  bottom: 190px;
+  left: 10px;
+  color: white;
+}
+.revb{
+  width: 350px;
+}
+.r2{
+  position: relative;
+  bottom: 180px;
+  left: 20px;
+}
+.k2{
+  text-align: center;
+  position: relative;
+  bottom: 190px;
+  left: 10px;
+  color: white;
+}
+.revc{
+  width: 350px;
+}
+.r3{
+  position: relative;
+  bottom: 180px;
+  left: 10px;
+}
+.k3{
+  text-align: center;
+  position: relative;
+  bottom: 190px;
+  left: 10px;
+  color: white;
+}
+.rid1{
+  width: 50px;
+  position: relative;
+  bottom: 130px;
+  left: 30px;
+}
+.rid2{
+  width: 50px;
+  position: relative;
+  bottom: 80px;
+  left: 30px;
+}
+.rid3{
+  width: 50px;
+  position: relative;
+  bottom: 105px;
+  left: 30px;
+}
+.ireti{
+  position: relative;
+  bottom: 180px;
+  left: 90px;
+  font-weight: bold;
+}
+.bayo{
+position: relative;
+bottom: 130px;
+left: 90px;
+font-weight: bold;
+}
+.goke{
+  position: relative;
+  bottom: 155px;
+  left: 90px;
+  font-weight: bold;
+}
+.foot{
+  padding-left: 150px;
+  margin-top: 30px;
+}
+.company{
+  padding-left: 80px;
+}
+.legal{
+  padding-left: 100px;
+}
+.c{
+  text-align: center;
+  padding-right: 100px;
+}
+.buyandsell{
+  border: 1px solid black;
+  width: 500px;
+  height: 500px;
+  background: #F7F7FA 0% 0% no-repeat padding-box;
+  margin: auto;
+  box-shadow: 0px 2px 3px #000000;
+  position: relative;
+  left: -8px; 
+}
+.buyh4{
+  text-align: center;
+}
+.buybtn{
+text-align: center; 
+}
+.buy1{
+  border-radius: 20px;
+  width: 150px;
+  padding: 5px;
+}
+.buy2{
+  border-radius: 20px;
+  width: 150px;
+  padding: 5px;
+}
+.coin{
+  position: relative;
+  left: 60px;
+  margin: 30px;
+}
+.form1{
+  width: 320px;
+  border-radius: 5px;
+  background: white 0% 0% no-repeat padding-box;
+  opacity: 1;
+  padding: 5px;
+}
+.form2{
+  width: 320px;
+  border-radius: 5px;
+  background: white 0% 0% no-repeat padding-box;
+  opacity: 1;
+  padding: 5px;
+}
+.form3{
+  width: 320px;
+  border-radius: 5px;
+  background: white 0% 0% no-repeat padding-box;
+  opacity: 1;
+  padding: 5px;
+}
+.continue{
+  display: flex;
+  margin: auto;
+  width: 330px;
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+  background-color: blueviolet;
+  color: white;
+}
+.sell{
+  border: 1px solid black;
+  width: 500px;
+  height: 500px;
+  background: blueviolet 0% 0% no-repeat padding-box;
+  margin: auto;
+  box-shadow: 0px 2px 3px #000000;
+  position: relative;
+  right: 8px;
+}
+.sell1{
+  border-radius: 20px;
+  width: 150px;
+  padding: 5px;
+}
+.sell2{
+  border-radius: 20px;
+  width: 150px;
+  padding: 5px;
+}
+.sellh4{
+  text-align: center;
+}
+.sellbtn{
+  text-align: center;
+}
+a{
+  text-decoration: none;
+  color: darkred;
+}
+.individual{
+  border: 1px solid black;
+  width: 500px;
+  height: 700px;
+  background: #F7F7FA 0% 0% no-repeat padding-box;
+  margin: auto;
+  box-shadow: 0px 2px 3px #000000;
+}
+.indih4{
+  text-align: center;
+}
+.indibtn{
+  text-align: center;
+}
+.indi1{
+  border-radius: 20px;
+  width: 150px;
+  padding: 5px;
+}
+.indi2{
+  border-radius: 20px;
+  width: 150px;
+  padding: 5px;
+}
+.signup{
+ display: flex;
+ margin: auto;
+ justify-content: center;
+ align-items: center;
+ width: 300px;
+ border-radius: 5px;
+ position: relative;
+ left: 80px;
+}
+.business{
+  border: 1px solid black;
+  width: 500px;
+  height: 700px;
+  background: blueviolet 0% 0% no-repeat padding-box;
+  position: relative;
+  /* left: 300px;  */
+  margin: auto;
+  box-shadow: 0px 2px 3px #000000;
+}
+.bush4{
+  text-align: center;
+}
+.busbtn{
+  text-align: center;
+}
+.bus1{
+  border-radius: 20px;
+  width: 150px;
+  padding: 5px;
+}
+.bus2{
+  border-radius: 20px;
+  width: 150px;
+  padding: 5px;
+}
+.signup{
+ display: flex;
+ margin: auto;
+ justify-content: center;
+ align-items: center;
+ width: 300px;
+ border-radius: 5px;
+ position: relative;
+ left: 80px;
+}
+.login{
+  border: 1px solid black;
+  width: 500px;
+  height: 500px;
+  background: #F7F7FA 0% 0% no-repeat padding-box;
+  position: relative;
+  left: 365px; 
+  box-shadow: 0px 2px 3px #000000;
+}
+.user{
+  width: 300px;
+  position: relative;
+  left: 60px;
+  border-radius: 5px;
+}
+.pass{
+  width: 300px;
+  position: relative;
+  left: 60px;
+  border-radius: 5px;
+}
+.check{
+  position: relative;
+  left: 90px;
+}
+.remember{
+  position: relative ;
+  bottom: 23px;
+  left: 115px;
+}
+.forgot{
+  position: relative;
+  bottom: 63px;
+  left: 300px;
+}
+.logbtn{
+  width: 300px;
+  border-radius: 5px;
+  background-color: blueviolet;
+  color: white;
+}
+.ysf{
+  border: 1px solid black;
+  width: 500px;
+  height: 600px;
+  background: #F7F7FA 0% 0% no-repeat padding-box;
+  box-shadow: 0px 2px 3px #000000;
+  position: relative;
+  left: 353px;
+}
+.learnbtn{
+  width: 250px;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: blueviolet;
+  color: white;
+}
+
+@media screen and (max-width: 992px) {
+  .circle1{
+    width: 400px;
+    height: 400px;
+  }
+  .circle2{
+    height: 370px;
+    width: 370px;
+  }
+  .allinfo{
+    width: 203px;
+    padding-right: 0px 0px 0px 5px;
+    position: relative;
+    right: 410px;
+    bottom: 84px;
+  }
+  .map2{
+    position: relative;
+    right: 30px;
+  }
+  .ease img{
+    width: 300px;
+  }
+  .financial img{
+    width: 300px;
+  }
+  .investment img{
+    width: 300px;
+  }
+  .buyimg{
+    position: relative;
+    right: 50px;
+  }
+  .gyrate1{
+    position: relative;
+    bottom: 60px;
+  }
+  .gyrate1img{
+    position: relative;
+    right: 80px;
+  }
+  .depo{
+    position: relative;
+    bottom: 50px;
+  }
+  .ready{
+    display: flex;
+    margin: auto;
+    margin-top: 50px;
+  }
+  .reva{
+    width: 300px;
+  }
+  .r1{
+    padding: 8px;
+  }
+  .revb{
+    width: 300px;
+  }
+  .r2{
+    padding: 8px;
+  }
+  .revc{
+    width: 300px;
+  }
+  .r3{
+    padding: 8px;
+  }
+  .ysf{
+    position: relative;
+    left: 174px;
+  }
+  .login{
+    position: relative;
+    left:186px ;
+  }
+  
+}
